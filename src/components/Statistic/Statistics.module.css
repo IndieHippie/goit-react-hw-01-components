@@ -1,28 +1,28 @@
 .statistics {
-    margin-top: 40px;
-    /* border: 1px solid black; */
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-    width: 300px;
+  margin-top: 40px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  width: 300px;
 }
 
 .title {
-    padding: 20px;
-    font-size: 30;
-    text-align: center;
-    background-color: #fff;
+  padding: 20px;
+  font-size: 30;
+  text-align: center;
+  background-color: #fff;
 }
 
 .stat_list {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-basis: calc(100% / 5);
-    border: 0.5px solid grey;
-    background-color: #afb1b8;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: calc(100% / 5);
+  border: 0.5px solid grey;
+  background-color: #afb1b8;
+  text-align: center;
 }

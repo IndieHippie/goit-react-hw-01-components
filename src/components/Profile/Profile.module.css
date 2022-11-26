@@ -3,8 +3,8 @@
     text-align: center;
     background-color: #ffffff;
     padding-top: 5px;
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-}
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 
 .avatar {
     margin: 25px auto;
@@ -19,14 +19,16 @@
 
 .tag {
     font-size: 15px;
+    font-weight: 600;
     margin-bottom: 15px;
-    color: black;
+    color: #757575;
 }
 
 .location {
     font-size: 15px;
+    font-weight: 600;
     margin-bottom: 15px;
-    color: black;
+    color: #757575;
 }
 
 .stats {
